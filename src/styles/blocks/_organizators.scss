@@ -1,0 +1,117 @@
+.organizators{
+  background: url("../img/org-bg.jpg") no-repeat 1365px 0, #27005C;
+  padding-top: 90px;
+  min-height: 983px;
+}
+.organizators-container{
+  background: url("../img/ball-bg.png") no-repeat 890px 0;
+}
+.organizators .title-text{
+  color: #FFFFFF;
+}
+.organizators-content{
+  display: flex;
+  width: 74%;
+  justify-content: space-between;
+  padding-top: 8%;
+}
+.organizators-content__block-text{
+  font-size: 17px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding-top: 6%;
+}
+.organizators-content__block {
+  width: 42%;
+}
+.organizators-content__block-button{
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .organizators-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .organizators {
+    min-height: 900px;
+  }
+  .organizators-content {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 400px;
+    text-align: center;
+    align-items: center;
+  }
+  .organizators .title-text {
+    text-align: center;
+  }
+  .organizators-container {
+    background: url(../img/ball-bg.png) no-repeat 38vw 125px;
+      background-size: 25vw;
+
+  }
+  .organizators-content__block-button {
+    display: block;
+    width: 164px;
+    height: 30px;
+    background: #FDF306;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &:focus{
+      outline: none;
+    }
+  }
+  .organizators-content__block-text{
+    display: none;
+    color: #000000;
+    padding: 80px;
+  }
+  .organizators-content__block {
+    align-items: center;
+    display: contents;
+  }
+
+}
+@media (max-width: 768px){
+  .organizators-container {
+    background: url(../img/ball-bg.png) no-repeat 35vw 125px;
+    background-size: 30vw;
+  }
+}
+@media (max-width: 480px){
+  .organizators-container {
+    background: url(../img/ball-bg.png) no-repeat 25vw 75px;
+    background-size: 53vw;
+  }
+  .organizators-content {
+    padding-top: 80vw;
+  }
+  .organizators {
+    min-height: 184vw;
+
+  }
+  .organizators-content__block-text {
+    padding: 8vw;
+    font-size: 4vw;
+    margin-top: 10vw;
+  }
+  #organizators-content__block-text + .fancybox-close-small{
+    top: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 370px){
+
+}

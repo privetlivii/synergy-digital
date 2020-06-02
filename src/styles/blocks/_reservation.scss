@@ -1,0 +1,147 @@
+.reservation{
+  background: url("../img/bg-08.jpg") no-repeat center 455px, #F0F0FA;
+  padding-top: 97px;
+  padding-bottom: 140px;
+}
+.reservation-container{
+  background: url("../img/bg-18.png") no-repeat center 190px;
+
+}
+.reservation .title-text{
+  text-align: center;
+  span{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+    color: #333333;
+    display: block;
+    width: 435px;
+    margin: 27px auto 0;
+  }
+}
+
+.reservation .registration-block {
+  margin-top: 313px;
+  width: 83%;
+  margin-left: 94px;
+  padding-bottom: 45px;
+}
+
+.reservation .registration-title{
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+  color: #333333;
+  padding-top: 139px;
+  padding-left: 169px;
+}
+.reservation .registration-form {
+  margin-top: 137px;
+}
+
+@media (max-width: 1200px) {
+  .reservation .registration-title {
+    padding-top: 14vw;
+    padding-left: 6vw;
+    width: 44vw;
+  }
+}
+@media (max-width: 1024px) {
+  .reservation .registration-form {
+    width: 70vw;
+  }
+  .reservation .registration-title {
+    width: 70vw;
+  }
+}
+@media (max-width: 992px) {
+
+  .reservation {
+    background: linear-gradient(0deg, #F0F0FA, #F0F0FA), linear-gradient(0deg, #27005C, #27005C), linear-gradient(360deg, rgba(37, 0, 85, 0.85) 53.83%, rgba(37, 0, 85, 0) 98.84%), linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0%, rgba(37, 0, 85, 0.15) 31.25%, rgba(0, 0, 0, 0.15) 50%, rgba(37, 0, 85, 0.15) 64.58%, rgba(255, 255, 255, 0.15) 100%);
+    padding-top: 12vw;
+    padding-bottom: 6vw;
+  }
+  .reservation .registration-title {
+    padding-left: 0;
+    padding-top: 3.5vw;
+    font-size: 1.6vw;
+    color: #000000;
+    line-height: 3vw;
+  }
+  .reservation-container {
+    background: none;
+  }
+  .reservation .title-text {
+    text-align: left;
+    font-size: 5vw;
+    margin-left: 8vw;
+    color: #000000;
+    span {
+      width: 607px;
+      margin: 1vw 0 0;
+      text-transform: none;
+      font-size: 2vw;
+      font-family: 'montserratregular';
+    }
+  }
+  .reservation .registration-block {
+    margin: 0 auto;
+    background: none;
+    box-shadow: none;
+  }
+  .reservation .registration-form {
+    width: 100%;
+    margin: 2vw auto;
+  }
+  .reservation  .registration__form-name {
+    margin-bottom: 2vw;
+    &::placeholder{
+      padding-left: 3vw;
+    }
+  }
+  .reservation  .registration-form__form-label {
+    background: #f0f0fa;
+  }
+  .reservation .registration-button {
+    height: 6vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .reservation .title-text {
+    margin-left: 0;
+    font-size: 8vw;
+    span {
+      font-size: 3.5vw;
+    }
+  }
+  .reservation .registration-title {
+    padding-left: 0;
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+  .reservation .registration-form {
+    margin: 5vw 0 0;
+    width: 86vw;
+  }
+  .reservation .registration-button {
+    height: 13vw;
+  }
+  .reservation .registration-block {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

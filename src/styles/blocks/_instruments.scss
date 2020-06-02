@@ -1,0 +1,217 @@
+.instruments {
+  background: url(../img/calendar.jpg) no-repeat 804px 0, linear-gradient(0deg, #27005C, #27005C), linear-gradient(0deg, rgba(18, 16, 16, 0.5), rgba(18, 16, 16, 0.5)), #27005C;
+}
+
+.instruments-container {
+  min-height: 716px;
+}
+
+.instruments .title-text {
+  color: #FFFFFF;
+  padding-top: 103px;
+
+  p {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 35px;
+    width: 336px;
+    margin-top: 0;
+  }
+}
+
+.instruments-block {
+  padding: 0;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.instruments-items {
+  width: 360px;
+  height: 60px;
+  background: #FDF306;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'montserratblack';
+  &:hover{
+    background: #FFFFFF;
+    color: #27005c;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+  }
+}
+.instruments-popup {
+  display: none;
+  color: black;
+  overflow: hidden;
+  width: 74%;
+}
+#instruments-popup__one{
+  background: url("../img/bg-13.png") no-repeat top;
+}
+#instruments-popup__two{
+  background: url("../img/bg-14.png") no-repeat top;
+}
+#instruments-popup__three{
+  background: url("../img/bg-16.png") no-repeat top;
+}
+#instruments-popup__four{
+  background: url("../img/bg-15.png") no-repeat top;
+}
+.instruments-popup .fancybox-close-small {
+  color: #fff;
+}
+.instruments-popup__title{
+  color: #FFFFFF;
+  font-size: 167px;
+  line-height: 128px;
+  margin-top: 338px;
+  text-align: center;
+  font-family: 'aa_bebas_neueregular';
+  span{
+    display: block;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    width: 76%;
+    margin:auto;
+    padding-top: 40px;
+    font-family: 'montserratregular';
+  }
+}
+@media (max-width: 1200px) {
+  .instruments {
+    background: url(../img/calendar.jpg) no-repeat 43vw 0,linear-gradient(0deg, #27005C, #27005C),linear-gradient(0deg, rgba(18,16,16,0.5), rgba(18,16,16,0.5)),#27005C;
+    background-size: 80vw;
+  }
+  .instruments .title-text{
+    padding-top: 6vw;
+    p {
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 3vw;
+    width: 27vw;
+    margin-top: 0;
+  }
+  }
+  .instruments-container {
+    min-height: 69vw;
+  }
+  #instruments-popup__one,
+  #instruments-popup__two,
+  #instruments-popup__three,
+  #instruments-popup__four,  {
+    background-size: 89vw;
+  }
+  .instruments-popup__title {
+    font-size: 9vw;
+    line-height: 8vw;
+    margin-top: 24vw;
+    span {
+      font-size: 3vw;
+      line-height: 4vw;
+      padding-top: 4vw;
+
+    }
+  }
+
+.instruments-popup .fancybox-close-small {
+    height: 5vw;
+    width: 4vw;
+  right: 0;
+  top: -1vw;
+  }
+  #instruments-popup__four{
+    p{
+      font-size: 9vw;
+      line-height: 8vw;
+      margin-top: 22vw;
+    }
+  }
+
+}
+@media (max-width: 768px) {
+  .instruments-container {
+    min-height: 133vw;
+  }
+  .instruments {
+    background: url(../img/calendar.jpg) no-repeat 10vw 65vw,linear-gradient(0deg, #27005C, #27005C),linear-gradient(0deg, rgba(18,16,16,0.5), rgba(18,16,16,0.5)),#27005C;
+    background-size: 82vw;
+  }
+  .instruments .title-text {
+    width: 51vw;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5vw;
+    p {
+      width: 51vw;
+    }
+  }
+  .instruments-popup__title span {
+    width: 44vw;
+    padding-top: 6vw;
+  }
+  .instruments-block {
+    margin: auto;
+    width: 47vw;
+  }
+  .instruments-items {
+    width: 47vw;
+    height: 8vw;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    line-height: 8vw;
+  }
+  .instruments-popup {
+    width: 100%;
+  }
+  #instruments-popup__one {
+    background-size: 100vw;
+  }
+}
+@media (max-width: 480px) {
+  .instruments {
+    background: url(../img/calendar.jpg) no-repeat -2vw 89vw,linear-gradient(0deg, #27005C, #27005C),linear-gradient(0deg, rgba(18,16,16,0.5), rgba(18,16,16,0.5)),#27005C;
+    background-size: 104vw;
+  }
+  .instruments .title-text{
+    width: 100%;
+    font-size: 6.5vw;
+    padding-bottom: 3.5vw;
+  p{
+    width: 100%;
+    font-size: 3.2vw;
+    line-height: 9vw;
+  }
+  }
+  .instruments-container {
+    min-height: 174vw;
+  }
+  .instruments-block {
+    margin: 0;
+    width: 100%;
+  }
+  .instruments-items {
+    width: 100%;
+    height: 12vw;
+    margin-bottom: 2.5vw;
+    font-size: 3vw;
+    line-height: 12vw;
+  }
+  .instruments-popup__title span {
+    font-size: 5vw;
+    line-height: 7vw;
+    padding-top: 10vw;
+    width: 271px;
+  }
+  .instruments-popup .fancybox-close-small {
+    height: 8vw;
+    width: 8vw;
+  }
+}

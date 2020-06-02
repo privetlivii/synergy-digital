@@ -1,0 +1,410 @@
+.marquee {
+  overflow: hidden;
+  background: #FFFFFF;
+  padding-top: 100px;
+}
+
+.running__line-list {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+.running__line-list__item {
+  padding: 0 15px;
+  color: #333333;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.program-block{
+  display: flex;
+  position: relative;
+
+  img{
+    box-shadow:         0px -6px 30px -14px rgba(0, 0, 0, 0.46);
+    &:first-child{
+      z-index: 2;
+    }
+    &:last-child{
+      margin-right: 10px;
+      position: absolute;
+      right: 0;
+    }
+  }
+  &::after{
+    content: '';
+    display: block;
+    box-shadow: inset 0 -111px 42px -29px #ffffff;
+    width: 99%;
+    height: 139px;
+    z-index: 9999;
+    position: absolute;
+    opacity: 0.9;
+    bottom: 0;
+  }
+}
+.program-view{
+  width: 453px;
+  height: 60px;
+  background: #FDF406;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: auto;
+  display: block;
+  color: #000000;
+}
+.program{
+  background: #F5F5FF;
+  .title-text{
+    margin-top: 0;
+    padding-top: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+  padding-bottom: 60px;
+  background: #FFFFFF;
+}
+
+
+.content__title-text {
+  line-height: 75px;
+  margin-top: 86px;
+  margin-bottom: 0;
+}
+
+.content-title__inner {
+  display: flex;
+}
+
+.content-title__inner-image {
+  margin-right: 31px;
+}
+
+.parallax {
+  margin-left: auto;
+}
+
+.content__title-image {
+  margin-bottom: 0;
+}
+
+.content__text {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 40px;
+  color: #333333;
+  width: 80%;
+}
+
+.factors {
+  background: #F0F0FA;
+  padding-top: 25px;
+  padding-bottom: 179px;
+}
+
+.factors-text {
+  text-align: center;
+
+  span {
+    font-size: 26px;
+    display: block;
+  }
+}
+
+.factors-container__block {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 90px;
+    height: 90px;
+    background: #F0F0FB;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -224px;
+    left: 526px;
+  }
+}
+
+.factors-container__block-items {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 50%;
+
+  span {
+    font-weight: bold;
+    font-size: 34px;
+    display: block;
+    padding-bottom: 15px;
+    padding-top: 24px;
+    text-transform: none;
+  }
+
+  &:nth-child(1) {
+    text-align: center;
+    width: 100%;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 4%;
+  }
+
+  &:nth-child(2) {
+    text-align: left;
+    width: 30%;
+    padding-top: 4%;
+  }
+
+  &:nth-child(3) {
+    width: 30%;
+    padding-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  &:nth-child(4) {
+    text-align: right;
+    width: 30%;
+    padding-top: 4%;
+  }
+
+  &:nth-child(5) {
+    text-align: left;
+    width: 40%;
+    padding-top: 1%;
+    margin-left: 9%;
+  }
+
+  &:nth-child(6) {
+    text-align: left;
+    width: 40%;
+    padding-top: 1%;
+    margin-left: 11%;
+  }
+}
+
+.worlds {
+  background: #27005C;
+}
+
+.worlds-container {
+  position: relative;
+}
+
+.worlds-image {
+  position: absolute;
+  top: 214px;
+  right: 164px;
+}
+
+.worlds-title__text {
+  font-weight: 900;
+  font-size: 51px;
+  width: 50%;
+  text-transform: uppercase;
+  line-height: 51px;
+  padding-top: 176px;
+  padding-bottom: 55px;
+  font-family: 'montserratblack';
+}
+
+.worlds-logo {
+  padding-bottom: 177px;
+
+  span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .title-text {
+    font-size: 7vw;
+  }
+  .content__text {
+    font-size: 2.5vw;
+  }
+  .factors-text span {
+    font-size: 3vw;
+    display: block;
+  }
+  .factors-container__block::after {
+    left: 46vw;
+  }
+  .worlds-container {
+    background-size: 27vw;
+
+  }
+  .worlds-title__text {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  .worlds-image {
+    width: 30vw;
+  }
+  .marquee {
+    padding-top: 10vw;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .factors-container__block-items {
+    font-size: 1.5vw;
+
+    span {
+      font-size: 3vw;
+    }
+  }
+  .factors-container__block::after {
+    left: 45vw;
+  }
+  .worlds-logo {
+    width: 32vw;
+
+    span {
+      font-size: 1.3vw;
+    }
+  }
+  .content__text {
+    line-height: 4vw;
+    width: 94vw;
+  }
+  .content__title-text {
+    line-height: 7vw;
+    margin-top: 10vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    padding-bottom: 10vw;
+  }
+  .factors-container__block-items {
+    line-height: 3vw;
+  }
+  .factors-container__block::after {
+    left: 43vw;
+    bottom: -204px;
+    width: 50px;
+    height: 50px;
+  }
+  .content-title__inner {
+    flex-wrap: wrap;
+  }
+  .content__title-text {
+    order: 1;
+    text-align: center;
+    margin-top: 0;
+  }
+  .content__title-image {
+    margin: auto;
+  }
+  .worlds-image {
+    right: 12vw;
+    top: 27vw;
+  }
+  .worlds-title__text {
+    padding-top: 18vw;
+  }
+  .worlds-logo {
+    padding-bottom: 15vw;
+  }
+  .running__line-list__item {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .factors-container__block {
+    flex-direction: column;
+  }
+  .factors-container__block-items span {
+    font-size: 4vw;
+  }
+  .factors-container__block-items:nth-child(3) {
+    width: 100%;
+  }
+  .factors-container__block-items:nth-child(1), .factors-container__block-items:nth-child(2), .factors-container__block-items:nth-child(4), .factors-container__block-items:nth-child(5), .factors-container__block-items:nth-child(6) {
+    order: 1;
+    font-size: 2.5vw;
+    padding: 3vw 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .factors-container__block::after {
+    left: 41vw;
+    bottom: -194px;
+    width: 30px;
+    height: 30px;
+  }
+  .worlds-image {
+    right: 33vw;
+    top: 63vw;
+  }
+  .worlds-logo {
+    padding-bottom: 14vw;
+    width: 88vw;
+
+    span {
+      font-size: 3.3vw;
+      margin-top: 47vw;
+      text-align: center;
+    }
+
+    img {
+      margin-left: 14vw;
+      width: 60vw;
+    }
+  }
+  .worlds-title__text {
+    padding-top: 12vw;
+    font-size: 4vw;
+    width: 88vw;
+    text-align: center;
+  }
+  .content__text {
+    width: 88vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

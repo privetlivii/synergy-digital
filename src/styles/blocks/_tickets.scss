@@ -1,0 +1,457 @@
+.tickets {
+  background: #F0F0FA;
+
+  .slick-initialized .slick-slide {
+    margin-right: 34px;
+  }
+}
+
+.tickets-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tickets-container {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.tickets__title-text {
+  position: relative;
+  width: 100%;
+
+  .slick-prev {
+    position: absolute;
+    top: 0;
+    right: 100px;
+  }
+
+  .slick-next {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.tickets-box {
+  background: #FFFFFF;
+  box-shadow: 0 0 50px -13px rgba(190, 191, 191, 0.42);
+  width: 260px;
+  height: 640px;
+  margin-top: 34px;
+}
+
+.tickets-box__business {
+  height: 640px;
+  position: relative;
+  border: 5px solid #FDF306;
+
+  .tickets-box__title {
+    border-top: 5px solid #2EAF5A;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .tickets-box__present {
+    margin-left: 5px;
+  }
+}
+
+.tickets-box__vip {
+  border-top: 5px solid #F20008;
+}
+
+.tickets-box__standart {
+  border-top: 5px solid #FDF306;
+}
+
+.tickets-box__online-easy {
+  border-top: 5px solid #3FFF80;
+
+  .tickets-box__advantage-items {
+    background: url("../img/icon-15.svg") no-repeat 0 5px;
+  }
+
+  .advantage-items__color-gray {
+    background: none;
+  }
+
+  .tickets-box__advantage {
+    margin-bottom: 19px;
+  }
+
+}
+
+.tickets-box__online-normal {
+  border-top: 5px solid #7492FF;
+
+  .tickets-box__advantage-items {
+    background: url("../img/icon-16.svg") no-repeat 0 5px;
+  }
+
+  .advantage-items__color-gray {
+    background: none;
+  }
+
+  .tickets-box__advantage {
+    margin-bottom: 19px;
+  }
+}
+
+.tickets-box__online-all {
+  border-top: 5px solid #FF8CB6;
+
+  .tickets-box__advantage-items {
+    background: url("../img/icon-17.svg") no-repeat 0 5px;
+  }
+
+  .advantage-items__color-gray {
+    background: none;
+  }
+
+  .tickets-box__advantage {
+    margin-bottom: 19px;
+    margin-top: 14px;
+  }
+}
+
+
+.tickets-box__head {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 33px;
+  color: #000000;
+  text-transform: uppercase;
+  background: #FDF306;
+  width: 175px;
+  height: 28px;
+  margin: 0;
+  position: absolute;
+  top: -33px;
+  right: -5px;
+  text-align: center;
+}
+
+.tickets-box__title {
+  color: #000000;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 50px;
+  text-align: center;
+
+  span {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 35px;
+    display: block;
+    font-family: 'montserratblack';
+  }
+}
+
+.tickets-box__title-text {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: 34px;
+  margin-left: 10px;
+}
+
+.tickets-box__sdf-online {
+  border-top: 5px solid #E96B25;
+}
+
+.tickets-box__sdf-online .tickets-box__advantage {
+  margin: 0;
+  color: #000000;
+
+  .tickets-box__advantage-items {
+    background: url("../img/ellipse.jpg") no-repeat top left;
+    line-height: 12px;
+    padding-left: 22px;
+    margin-left: 11px;
+  }
+}
+
+.tickets-box__advantage {
+  color: #333333;
+  list-style: none;
+  padding: 0;
+  margin-top: 33px;
+  margin-bottom: 27px;
+}
+
+.tickets-box__advantage-items {
+  background: url("../img/check.svg") no-repeat 0 5px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: flex;
+  padding-left: 17px;
+  margin-left: 15px;
+}
+
+.advantage-items__color-gray {
+  color: #c4c4c4;
+  background: none;
+}
+
+.advantage-items__check {
+  display: block;
+  height: 10px;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+
+.tickets-box__button {
+  width: 100%;
+  background: #FDF406;
+  border: none;
+  height: 60px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background: #0d95e8;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+}
+
+.tickets-box__link {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+  padding-bottom: 4px;
+  color: #333333;
+}
+
+.tickets-box__about {
+  text-align: center;
+}
+
+.tickets-box__sdf-online .tickets-box__about {
+  margin-top: 206px;
+}
+
+.tickets-box__present {
+  background: url("../img/bg-12.png") no-repeat top left;
+  margin-left: 10px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  height: 137px;
+}
+
+.tickets-box__present-one {
+  width: 52%;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 40px;
+  margin: 0;
+  font-family: 'montserratblack';
+}
+
+.tickets-box__present-two {
+  width: 100%;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 0;
+  font-family: 'montserratblack';
+}
+
+.tickets-box__present-three {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  margin-bottom: 0;
+  width: 90%;
+}
+
+.tickets-box {
+  &:focus {
+    outline: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tickets__title-text {
+    font-size: 6.5vw;
+  }
+  .tickets-inner {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .tickets-box:nth-child(2) {
+    position: unset;
+  }
+  .tickets {
+    .tickets__title-text .slick-prev {
+      top: 1vw;
+      right: 10vw;
+    }
+
+    .tickets__title-text .slick-next {
+      top: 1vw;
+    }
+  }
+  .tickets .slick-initialized .slick-slide {
+    margin-right: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .tickets-box {
+    width: 88vw;
+    height: 167vw;
+    margin-top: 7vw;
+  }
+  .tickets-box__title {
+    font-size: 5vw;
+    line-height: 6vw;
+
+    span {
+      font-size: 10vw;
+      line-height: 10vw;
+    }
+  }
+  .tickets-box__button {
+    height: 11vw;
+    font-size: 4vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
+  .tickets-box__about {
+    margin-top: 38vw;
+  }
+  .tickets-box__standart, .tickets-box__business, .tickets-box__vip {
+    .tickets-box__about {
+      margin-top: 10vw;
+    }
+  }
+.tickets-box__business{
+  width: 87vw;
+}
+  .tickets {
+    .tickets__title-text .slick-prev {
+      top: 3vw;
+    }
+
+    .tickets__title-text .slick-next {
+      top: 3vw;
+    }
+  }
+
+
+  .tickets .title-text {
+    font-size: 10vw;
+  }
+
+  .tickets-box__present {
+    padding-left: 5vw;
+    background-size: 100%;
+    margin-left: 4%;
+    width: 92%;
+    height: 46vw;
+  }
+  .tickets-box__advantage {
+    margin: 13vw 5vw;
+  }
+  .tickets-box__advantage-items {
+    background: url(../img/check.svg) no-repeat 0 0.6vw;
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-bottom: 3vw;
+    padding-left: 4vw;
+  }
+
+
+  .tickets-box__sdf-online {
+    .tickets-box__advantage-items {
+      margin-bottom: 10vw;
+    }
+
+    .tickets-box__title-text {
+      margin-bottom: 60px;
+    }
+  }
+  .tickets-box__sdf-online .tickets-box__advantage .tickets-box__advantage-items {
+    line-height: 6px;
+  }
+
+  .tickets-box__head {
+    font-size: 3vw;
+    line-height: 11vw;
+    margin-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .tickets-box__sdf-online .tickets-box__about {
+    margin-top: 60vw;
+  }
+
+  .advantage-items__color-gray {
+    background: none;
+  }
+  .tickets-box__present-one {
+    width: 34vw;
+    font-size: 5.5vw;
+    line-height: 13vw;
+  }
+  .tickets-box__present-two {
+    width: 100%;
+    font-size: 3vw;
+    line-height: 2.5vw;
+    margin-top: 0;
+    margin-bottom: 10vw;
+  }
+  .tickets-box__present-three {
+    font-size: 2.8vw;
+    line-height: 3.5vw;
+    margin-top: 0;
+  }
+  .tickets-container {
+    padding-top: 7vw;
+    padding-bottom: 11vw;
+  }
+}
+
+@media (max-width: 370px) {
+  .tickets-box__sdf-online .tickets-box__about {
+    margin-top: 50vw;
+  }
+  .tickets-box__present {
+    width: 77vw;
+    height: 46vw;
+  }
+  .tickets-box.tickets-box__business.slick-slide.slick-current.slick-active {
+    width: 84vw;
+  }
+}
+
+
+
+

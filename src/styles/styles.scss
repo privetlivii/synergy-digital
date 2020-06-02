@@ -1,0 +1,27 @@
+/* BEGIN general styles */
+@import "general/general";
+@import "general/header";
+@import "general/footer";
+
+/* BEGIN lib styles */
+@import "lib/jquery.fancybox.min";
+@import "lib/slick";
+
+/* BEGIN blocks styles */
+@import "blocks/form";
+@import "blocks/content";
+@import "blocks/speakers";
+@import "blocks/gallery";
+@import "blocks/networking";
+@import "blocks/tickets";
+@import "blocks/headliner";
+@import "blocks/themes";
+@import "blocks/packet";
+@import "blocks/instruments";
+@import "blocks/benefit";
+@import "blocks/organizators";
+@import "blocks/reservation";
+@import "blocks/franchise";
+@import "blocks/initial-screen";
+@import "blocks/workshop";
+

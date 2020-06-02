@@ -1,0 +1,282 @@
+.themes {
+  background: #F0F0FA;
+  color: #000000;
+}
+
+.themes-container {
+  padding-top: 25px;
+  padding-bottom: 100px;
+
+}
+
+.themes-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.themes-block {
+  width: 555px;
+  height: 120px;
+  box-shadow: 0 25px 100px rgba(0, 12, 119, 0.15), 0 5px 16px rgba(0, 12, 119, 0.15);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 23px;
+  img{
+    margin-right: 35px;
+  }
+}
+.themes .title-text {
+  margin-bottom: 62px;
+}
+
+@media (max-width: 1200px) {
+  .themes-block {
+    width: 46vw;
+    font-size: 1.6vw;
+    height: 10vw;
+    padding-left: 2vw;
+    img {
+      margin-right: 2vw;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .themes-block {
+    width: 43.5vw;
+    line-height: 2vw;
+    img {
+      width: 7vw;
+    }
+  }
+
+}
+
+@media (max-width: 480px){
+.themes-block {
+  width: 90vw;
+  line-height: 4vw;
+  height: 17vw;
+  font-size: 3.6vw;
+  img {
+    width: 12vw;
+  }
+}
+}
+
+
+
+#themes {
+  padding: 125px 0;
+  background: #f0f0fa;
+  display: none;
+}
+
+.themes .container {
+  position: relative
+}
+
+.themes__title {
+  margin-bottom: 100px
+}
+
+.themes__carousel {
+  perspective: 2100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.themes__carousel > * {
+  flex: 0 0 auto
+}
+
+.themes__list {
+  margin: 0;
+  width: 560px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  transform-origin: 50% 50% -1350px
+}
+
+.themes__item {
+  position: relative;
+  width: 555px;
+  height: 260px;
+  box-sizing: border-box;
+  padding: 0 0;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.themes__item:not(:first-of-type) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: 50% 50% -1350px
+}
+
+.themes__item:nth-child(2) {
+  transform: rotateY(.4488rad)
+}
+
+.themes__item:nth-child(3) {
+  transform: rotateY(.8976rad)
+}
+
+.themes__item:nth-child(4) {
+  transform: rotateY(1.3464rad)
+}
+
+.themes__item:nth-child(5) {
+  transform: rotateY(1.7952rad)
+}
+
+.themes__item:nth-child(6) {
+  transform: rotateY(2.24399rad)
+}
+
+.themes__item:nth-child(7) {
+  transform: rotateY(2.69279rad)
+}
+
+.themes__item:nth-child(8) {
+  transform: rotateY(3.14159rad)
+}
+
+.themes__item:nth-child(9) {
+  transform: rotateY(3.59039rad)
+}
+
+.themes__item:nth-child(10) {
+  transform: rotateY(4.03919rad)
+}
+
+.themes__item:nth-child(11) {
+  transform: rotateY(4.48799rad)
+}
+
+.themes__item:nth-child(12) {
+  transform: rotateY(4.93679rad)
+}
+
+.themes__item:nth-child(13) {
+  transform: rotateY(5.38559rad)
+}
+
+.themes__item:nth-child(14) {
+  transform: rotateY(5.83439rad)
+}
+
+.themes__item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 106px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain
+}
+
+.themes__item_1:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_2:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_3:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_4:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_5:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_6:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_7:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_8:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_9:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_10:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_11:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_12:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_13:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item_14:before {
+  background-image: url(../img/berek.jpg)
+}
+
+.themes__item-img {
+  position: absolute;
+  top: 45px;
+  left: 50px
+}
+
+.themes__item-text {
+  font: 700 35px 'Bebas Neue', sans-serif;
+  line-height: 103%;
+  color: #000;
+  padding: 58px 10px 0 212px
+}
+.themes__navigation {
+  position: absolute;
+  right: 15px;
+  top: -20px;
+  display: flex;
+  justify-content: center
+}
+
+.themes__nav {
+  display: block;
+  border: none;
+  width: 68px;
+  height: 64px;
+  background: #fdf306;
+  outline: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+  padding: 0;
+  z-index: 2;
+  text-align: center;
+  margin-left: 12px
+}
+
+.themes__wrapper {
+  display: none
+}
